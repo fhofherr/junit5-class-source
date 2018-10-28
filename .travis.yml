@@ -5,3 +5,11 @@ jdk:
   - openjdk9
   - openjdk10
   - openjdk11
+stages:
+  - name: publish-release
+    if: tag =~ /^v\d+\.\d+\.\d+$/
+jobs:
+  include:
+    - stage: publish-release
+      jdk: openjdk8
+      script: ./gradlew bintrayUpload -Dbintray.user=$BINTRAY_USER -Dbintray.key=$BINTRAY_KEY
