@@ -1,5 +1,7 @@
 # junit5-class-source
 
+[![Build Status](https://travis-ci.com/fhofherr/junit5-class-source.svg?branch=master)](https://travis-ci.com/fhofherr/junit5-class-source)
+
 A simple `@ClassSource` annotation to use with
 [JUnit5](https://junit.org) [parameterized
 tests](https://junit.org/junit5/docs/current/user-guide/#writing-tests-parameterized-tests).
