@@ -3,6 +3,7 @@ plugins {
 }
 
 repositories {
+    mavenCentral()
     jcenter()
 }
 
@@ -19,6 +20,8 @@ val junitVersion = "5.3.1"
 dependencies {
     implementation("org.junit.jupiter:junit-jupiter-api:$junitVersion")
     implementation("org.junit.jupiter:junit-jupiter-params:$junitVersion")
+
+    testImplementation("org.mockito:mockito-core:2.23.0")
     testRuntime("org.junit.jupiter:junit-jupiter-engine:$junitVersion")
 }
 
