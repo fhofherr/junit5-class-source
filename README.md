@@ -1,6 +1,6 @@
 # junit5-class-source
 
-[![Build Status](https://travis-ci.com/fhofherr/junit5-class-source.svg?branch=master)](https://travis-ci.com/fhofherr/junit5-class-source)
+[![Build Status](https://travis-ci.org/fhofherr/junit5-class-source.svg?branch=master)](https://travis-ci.org/fhofherr/junit5-class-source)
 
 A simple `@ClassSource` annotation to use with
 [JUnit5](https://junit.org) [parameterized
